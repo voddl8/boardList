@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.Navbar{
+  background-color: #2eccf7;
+  display: block;
+}
+
+.Navbar a{
+  background-color: #2eccf7;
+  padding: 28px;
+  display: inline-block;
+  font-size: 18px;;
+}
+
+.Navbar a:hover{
+  background-color: #008fb6;
+}
+
+.Navbar a.active{
+  background-color: #008fb6;
+}
+
+
+.form-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-input {
+  width: 500px;
+  height: 40px;
+  margin: 10px;
+}
+
+.text-area {
+  width: 80%;
+  min-height: 500px;
+}
+
+.wrtie-place{
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #333;
+  padding: 10px 0 30px 0;
+  border-radius: 5px;
+  margin-bottom : 50px;
+}
+
+.save-button {
+  text-align: center;
+  width: 100px;
+  height: 70px;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  background: rgb(43, 173, 95);
+  border-radius: 5px;
+}
+
+.List{
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.UnderLine{
+  border-bottom: darkblue;
+  border-bottom: solid 1px;
+}
+
+/*CkEditor CSS*/
+/* 텍스트입력태그 */
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 500px;
+  max-height: 500px;
+  margin-bottom: 30px;
+}
+
+.padding-button{
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.padding-contents{
+  padding-left: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
